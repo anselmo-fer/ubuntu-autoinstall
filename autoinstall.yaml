@@ -5,14 +5,13 @@ autoinstall:
         realname: 'hacker
         hostname: ubuntu-desktop
         username: hackerdevel
-        password: '$y$j9T$uhkxlm8nUQaNu.6rl4k2d.$DIldpYy96OHg8lFjfXfc671BZcGWkPOmaDONGAhGSg3'
+        password: '$y$j9T$ZbLTA2.19tkRVL/E3uzXq.$K/e./556eOhrHG3eYop0terEUwFmbj13Jc0LVJQ9jZ0'
     locale: pt_BR.utf8
     keyboard:
         layout: br
     timezone: "America/Sao_Paulo"   
     packages:        
-        
-      
+        - libreoffice      
         - wget
     snaps:
         - name: spotify
